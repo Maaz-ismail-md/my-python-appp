@@ -1,0 +1,71 @@
+Online Clipboard
+Menu
+Introduction
+
+Online Clipboard is free online tool that help you to copy and paste between devices. It allows you to copy text or image.Online tool suite
+
+How to use:
+
+1. choose your text or image that would be like to be copy to other device by putting your text in the following text box, or just copy your text or image.
+
+2. Send your text or image to Online Clipboard by the following button.
+
+3. At the other device, retrieve your text or image from Online Clipboard by entering your code.
+
+Discover more
+Cross-device copy paste
+Clipboard management tool
+Clipboard synchronization app
+Send to Online Clipboard:Online clipboard tool
+
+ 
+ 
+ 
+ 
+
+Retrieve from Online Clipboard:
+
+572393
+from flask import Flask, render_template
+
+app = Flask(__name__)
+
+@app.route("/")
+def page1():
+    return render_template("page1.html")
+
+@app.route("/page2")
+def page2():
+    return render_template("page2.html")
+
+@app.route("/page3")
+def page3():
+    return render_template("page3.html")
+
+if __name__ == "__main__":
+    app.run(host="0.0.0.0", port=5000)
+The value have be save to you clipboard.
+
+Discover more
+Data transfer service
+File hashing online
+Collaboration software suites
+
+About Online Clipboard:
+
+Clipboard is a software function, usually provided by the operating system, and its role is to use copy and paste operations to store data for a short period of time and transfer data between files or applications. It is one of the most commonly used functions in a graphical user interface (GUI) environment. It is usually implemented as an anonymous, temporary data buffer that can be accessed by most or all programs in the environment using the programming interface. Typical applications will provide clipboard operations to the user interface, such as through hotkeys, menu options, and so on.Cross-device copy paste
+
+Normally clipboard is online working in one device, but nowaday people more and more likely to use multple devices during working. It is quite difficult to send and short text or image to other device. Using email or other software is overkill for short text. This why we have created this tool.
+
+
+Discover more
+Cloud storage services
+Online text editors
+JSON escaping tools
+Anonymous data buffer
+Image editing software
+Python programming courses
+Password managers
+The implementation of clipboard on each operating system is different, and may also be different in different versions of the same operating system. They may also change due to different programs or user settings. Most environments support a single clipboard operation, and each "cut" or "copy" content will overwrite the previous content. Generally speaking, the "paste" operation is to make a copy of the content, and the content in the clipboard will be retained for pasting again.
+
+The earliest implementation of clipboard was to store data as plain text without meta-information such as font, style, and color. Subsequent implementations support multiple data types, allowing the storage of complex data structures. Styled text includes RTF, HTML, etc., as well as various bitmaps, vector graphics, electronic spreadsheets, database entries, and so on. However Online Clipboard currently only supporting plain text, image and file, in future we will add more feature.
